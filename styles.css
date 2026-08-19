@@ -1,0 +1,107 @@
+:root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --text: #1f2937;
+  --muted: #4b5563;
+  --primary: #1d4ed8;
+  --border: #dbe2ea;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  width: min(960px, 92%);
+  margin: 0 auto;
+}
+
+.hero {
+  background: linear-gradient(145deg, #1d4ed8, #1e40af);
+  color: #fff;
+  padding: 3rem 0;
+  margin-bottom: 1.5rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0.8rem;
+}
+
+.lead {
+  font-size: 1.1rem;
+  max-width: 75ch;
+  margin: 0;
+}
+
+section {
+  background: var(--surface);
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin: 0.8rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+th,
+td {
+  border: 1px solid var(--border);
+  padding: 0.55rem;
+  text-align: left;
+}
+
+th {
+  background: #eff6ff;
+}
+
+tr.total {
+  background: #f8fafc;
+}
+
+blockquote {
+  margin: 1rem 0 0;
+  padding: 0.8rem 1rem;
+  background: #f9fafb;
+  border-left: 4px solid var(--primary);
+  color: var(--muted);
+}
+
+blockquote p {
+  margin-top: 0;
+}
