@@ -116,7 +116,12 @@ blockquote p {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  outline: none;
+  border-radius: 8px;
+}
+
+.carousel:focus {
+  outline: 3px solid var(--primary);
+  outline-offset: 3px;
 }
 
 .carousel-track-wrapper {
